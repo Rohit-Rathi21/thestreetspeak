@@ -1,6 +1,6 @@
 import { ArrowRight, BookOpen, Mic2, Newspaper, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/careered-hero.jpg";
+import heroImage from "@/assets/streets-hero.jpg";
 
 const articles = [
   {
@@ -58,7 +58,7 @@ const Index = () => {
       <section id="about" className="bg-background px-5 py-20 md:px-10 md:py-28">
         <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-start">
           <div className="sticky top-28">
-            <span className="bg-muted px-3 py-1 font-display text-4xl uppercase shadow-cut md:text-5xl">About Careered</span>
+            <span className="bg-muted px-3 py-1 font-display text-4xl uppercase shadow-cut md:text-5xl">About street’s</span>
           </div>
           <div className="space-y-6 text-lg leading-8 text-ink-soft md:text-xl">
             <p>The Streets Speak - that's the space where the everyday city comes alive through the people, places and experiences that make up the fabric of urban life – especially the stuff that often gets overlooked.</p>
