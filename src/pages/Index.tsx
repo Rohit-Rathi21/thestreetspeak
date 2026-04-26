@@ -31,7 +31,7 @@ const Index = () => {
     <main className="min-h-screen overflow-hidden bg-background text-foreground">
       <nav className="fixed inset-x-0 top-0 z-30 border-b-2 border-primary bg-primary/95 px-5 py-4 text-primary-foreground backdrop-blur md:px-10">
         <div className="mx-auto flex max-w-7xl items-center justify-between">
-          <a href="#home" className="font-display text-2xl font-bold tracking-normal">Careered.com</a>
+          <a href="#home" className="font-display text-2xl font-bold tracking-normal">The Street&apos;s Speak</a>
           <div className="hidden items-center gap-7 text-sm font-bold uppercase tracking-normal md:flex">
             <a href="#about" className="transition-colors hover:text-warm">About</a>
             <a href="#stories" className="transition-colors hover:text-warm">Stories</a>
@@ -49,7 +49,7 @@ const Index = () => {
             <p className="mb-4 inline-flex items-center gap-2 bg-accent px-3 py-1 text-sm font-black uppercase text-accent-foreground">
               <Sparkles className="h-4 w-4" /> Youth, education, careers
             </p>
-            <h1 className="text-balance font-display text-6xl font-black italic leading-none md:text-8xl">Careered</h1>
+            <h1 className="text-balance font-display text-6xl font-black italic leading-none md:text-8xl">The Street&apos;s Speak</h1>
             <p className="mt-6 max-w-2xl text-xl font-bold italic leading-relaxed md:text-2xl">Education, youth and careers. Learn more, fear less.</p>
           </div>
         </div>
