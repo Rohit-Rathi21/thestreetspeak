@@ -39,6 +39,14 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        warm: "hsl(var(--warm))",
+        paper: {
+          DEFAULT: "hsl(var(--paper))",
+          deep: "hsl(var(--paper-deep))",
+        },
+        ink: {
+          soft: "hsl(var(--ink-soft))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
@@ -63,6 +71,18 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      boxShadow: {
+        cut: "var(--shadow-cut)",
+        soft: "var(--shadow-soft)",
+      },
+      backgroundImage: {
+        editorial: "var(--gradient-editorial)",
+        paper: "var(--gradient-paper)",
+      },
+      fontFamily: {
+        display: ["Playfair Display", "Georgia", "serif"],
+        sans: ["Libre Franklin", "ui-sans-serif", "system-ui", "sans-serif"],
+      },
       keyframes: {
         "accordion-down": {
           from: {
@@ -80,10 +100,20 @@ export default {
             height: "0",
           },
         },
+        float: {
+          "0%, 100%": { transform: "translate3d(0, 0, 0) rotate(-1deg)" },
+          "50%": { transform: "translate3d(0, -10px, 0) rotate(1deg)" },
+        },
+        ticker: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        float: "float 7s ease-in-out infinite",
+        ticker: "ticker 22s linear infinite",
       },
     },
   },
