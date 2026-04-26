@@ -47,10 +47,10 @@ const Index = () => {
         <div className="relative z-10 mx-auto flex min-h-[calc(88vh-5rem)] max-w-7xl flex-col justify-center px-5 py-20 md:px-10">
           <div className="max-w-4xl animate-float border-4 border-primary-foreground/90 bg-primary/20 px-6 py-8 text-primary-foreground shadow-soft backdrop-blur-sm md:px-14 md:py-12">
             <p className="mb-4 inline-flex items-center gap-2 bg-accent px-3 py-1 text-sm font-black uppercase text-accent-foreground">
-              <Sparkles className="h-4 w-4" /> Youth, education, careers
+              <Sparkles className="h-4 w-4" /> Culture, Streets, Stories
             </p>
             <h1 className="text-balance font-display text-6xl font-black italic leading-none md:text-8xl">The Street&apos;s Speak</h1>
-            <p className="mt-6 max-w-2xl text-xl font-bold italic leading-relaxed md:text-2xl">Education, youth and careers. Learn more, fear less.</p>
+            <p className="mt-6 max-w-2xl text-xl font-bold italic leading-relaxed md:text-2xl">Life as it happens, not as it’s told.</p>
           </div>
         </div>
       </section>
@@ -61,9 +61,9 @@ const Index = () => {
             <span className="bg-muted px-3 py-1 font-display text-4xl uppercase shadow-cut md:text-5xl">About Careered</span>
           </div>
           <div className="space-y-6 text-lg leading-8 text-ink-soft md:text-xl">
-            <p>This platform is built for students and young people navigating education, careers, and the often-unspoken pressures that come with them.</p>
-            <p>From exam anxiety and academic stress to career confusion and internship culture, Careered creates honest conversations around issues that truly matter.</p>
-            <p>Through podcasts, newsletters, feature articles, infographics, and student-centric stories, we break down complex topics into relatable, practical insights.</p>
+            <p>The Streets Speak - that's the space where the everyday city comes alive through the people, places and experiences that make up the fabric of urban life – especially the stuff that often gets overlooked.</p>
+            <p>From the messy beauty of street food to the rhythms of daily life and the secret stories that shape who we are, it's a place where the voices of real people bring the streets to life in all their messy glory.</p>
+            <p>Its got articles and visuals and stories from the community, turning ordinary, everyday moments into something genuinely meaningful - none of the sugar coating or polish here, just the real deal, stuff that feels real and true to life.</p>
           </div>
         </div>
       </section>
