@@ -117,7 +117,11 @@ const Index = () => {
       <section id="join" className="bg-editorial px-5 py-20 text-accent-foreground md:px-10 md:py-24">
         <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 md:flex-row md:items-center">
           <h2 className="max-w-3xl font-display text-5xl font-black italic leading-tight md:text-7xl">A space to learn, reflect, and grow together.</h2>
-          <Button variant="editorial" size="lg">Follow our Substack <ArrowRight className="h-4 w-4" /></Button>
+          <Button variant="editorial" size="lg" asChild>
+            <a href="https://substack.com/@aditiprakash3" target="_blank" rel="noopener noreferrer">
+              Follow our Substack <ArrowRight className="h-4 w-4" />
+            </a>
+          </Button>
         </div>
       </section>
     </main>
