@@ -4,19 +4,22 @@ import { Button } from "@/components/ui/button";
 
 const newsletters = [
   {
-    title: "Degrees in distraction?",
-    text: "The impact of social media on education and attention.",
-    tag: "Feature",
+    title: "Why is basic hygiene still a gamble?",
+    text: "The gap between food safety policies and street-level realities in India’s street food ecosystem.",
+    tag: "Street food",
+    url: "https://substack.com/@aditiprakash3/note/c-249618109",
   },
   {
     title: "Classrooms under fire",
     text: "How conflict disrupts learning, safety, and futures.",
     tag: "Case study",
+    url: "https://substack.com/@aditiprakash3",
   },
   {
     title: "The memorization trap",
     text: "Why rote learning can intensify exam anxiety.",
     tag: "Newsletter",
+    url: "https://substack.com/@aditiprakash3",
   },
 ];
 
@@ -53,7 +56,7 @@ const Newsletters = () => {
               <h2 className="font-display text-3xl font-black leading-tight">{item.title}</h2>
               <p className="mt-4 leading-7 text-muted-foreground">{item.text}</p>
               <Button className="mt-8" variant="paper" asChild>
-                <a href="https://substack.com/@aditiprakash3" target="_blank" rel="noopener noreferrer">
+                <a href={item.url} target="_blank" rel="noopener noreferrer">
                   Read on Substack <ArrowRight className="h-4 w-4" />
                 </a>
               </Button>

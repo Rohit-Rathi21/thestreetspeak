@@ -5,9 +5,9 @@ import heroImage from "@/assets/streets-hero.jpg";
 
 const articles = [
   {
-    title: "Degrees in distraction?",
-    text: "The impact of social media on education and attention.",
-    tag: "Feature",
+    title: "Why is basic hygiene still a gamble?",
+    text: "The gap between food safety policies and street-level realities in India’s street food ecosystem.",
+    tag: "Street food",
   },
   {
     title: "Classrooms under fire",
