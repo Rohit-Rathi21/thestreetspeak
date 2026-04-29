@@ -78,14 +78,14 @@ const Newsletters = () => {
       <section className="bg-paper-deep px-5 py-16 md:px-10 md:py-24">
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-3">
           {newsletters.map((item, index) => (
-            <article key={item.title} className="border-2 border-primary bg-background p-6 shadow-cut transition-all hover:-translate-y-2 hover:shadow-none">
+            <article key={item.title} className="flex min-h-[340px] flex-col border-2 border-primary bg-background p-6 shadow-cut transition-all hover:-translate-y-2 hover:shadow-none">
               <div className="mb-12 flex items-center justify-between">
                 <span className="bg-secondary px-3 py-1 text-sm font-black uppercase text-secondary-foreground">{item.tag}</span>
                 <span className="font-display text-4xl italic text-muted-foreground">0{index + 1}</span>
               </div>
               <h2 className="font-display text-3xl font-black leading-tight">{item.title}</h2>
               <p className="mt-4 leading-7 text-muted-foreground">{item.text}</p>
-              <Button className="mt-8" variant="paper" asChild>
+              <Button className="mt-auto self-start" variant="paper" asChild>
                 <a href={item.url} target="_blank" rel="noopener noreferrer">
                   Read on Substack <ArrowRight className="h-4 w-4" />
                 </a>
