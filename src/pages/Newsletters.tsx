@@ -10,10 +10,10 @@ const newsletters = [
     url: "https://substack.com/@aditiprakash3/note/c-249618109",
   },
   {
-    title: "Classrooms under fire",
-    text: "How conflict disrupts learning, safety, and futures.",
-    tag: "Case study",
-    url: "https://substack.com/@aditiprakash3",
+    title: "CCTV or real safety?",
+    text: "Cameras watch. Infrastructure protects.",
+    tag: "SAFETY CHECK",
+    url: "https://substack.com/@aditiprakash3/note/c-246740100",
   },
   {
     title: "The memorization trap",
