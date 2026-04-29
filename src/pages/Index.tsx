@@ -11,9 +11,10 @@ const articles = [
     link: "https://medium.com/p/deed768bd688?postPublishedType=initial",
   },
   {
-    title: "Classrooms under fire",
-    text: "How conflict disrupts learning, safety, and futures.",
-    tag: "Case study",
+    title: "The Cost of Waiting",
+    text: "Waiting is something in a city life we all do it.",
+    tag: "still late",
+    link: "https://medium.com/p/1b7cfdee7f74?postPublishedType=initial",
   },
   {
     title: "The memorization trap",
