@@ -84,7 +84,7 @@ const Index = () => {
           <div className="mb-12 flex flex-col justify-between gap-5 md:flex-row md:items-end">
             <div>
               <p className="font-black uppercase text-accent">Current conversations</p>
-              <h2 className="mt-2 font-display text-5xl leading-tight md:text-7xl">Stories students actually talk about.</h2>
+              <h2 className="mt-2 font-display text-5xl leading-tight md:text-7xl">Stories people actually don&apos;t talk about.</h2>
             </div>
             <Button variant="paper" size="lg">Explore case studies <ArrowRight className="h-4 w-4" /></Button>
           </div>
