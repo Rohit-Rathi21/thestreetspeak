@@ -75,7 +75,7 @@ const Index = () => {
         <div className="flex w-[200%] animate-ticker gap-8 whitespace-nowrap font-display text-3xl italic md:text-5xl">
           {[...Array(2)].map((_, group) => (
             <div key={group} className="flex gap-8">
-              <span>learn more</span><span>fear less</span><span>reflect together</span><span>choose clearly</span><span>grow honestly</span>
+              <span>See clearly</span><span>Hear the unheard</span><span>Live the streets</span><span>Feel the real</span><span>Tell the stories</span>
             </div>
           ))}
         </div>
