@@ -5,9 +5,10 @@ import heroImage from "@/assets/streets-hero.jpg";
 
 const articles = [
   {
-    title: "Why is basic hygiene still a gamble?",
-    text: "The gap between food safety policies and street-level realities in India’s street food ecosystem.",
-    tag: "Street food",
+    title: "Invisible Workers of the Night",
+    text: "When the noise dies down, a whole different crew takes over.",
+    tag: "Night life",
+    link: "https://medium.com/p/deed768bd688?postPublishedType=initial",
   },
   {
     title: "Classrooms under fire",
@@ -88,16 +89,28 @@ const Index = () => {
             </div>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
-            {articles.map((article, index) => (
-              <article key={article.title} className="group border-2 border-primary bg-background p-6 shadow-cut transition-all hover:-translate-y-2 hover:shadow-none">
+            {articles.map((article, index) => {
+              const cardContent = (
+                <>
                 <div className="mb-12 flex items-center justify-between">
                   <span className="bg-secondary px-3 py-1 text-sm font-black uppercase text-secondary-foreground">{article.tag}</span>
                   <span className="font-display text-4xl italic text-muted-foreground">0{index + 1}</span>
                 </div>
                 <h3 className="font-display text-3xl font-black leading-tight">{article.title}</h3>
                 <p className="mt-4 leading-7 text-muted-foreground">{article.text}</p>
-              </article>
-            ))}
+                </>
+              );
+
+              return article.link ? (
+                <a key={article.title} href={article.link} target="_blank" rel="noopener noreferrer" className="group border-2 border-primary bg-background p-6 shadow-cut transition-all hover:-translate-y-2 hover:shadow-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+                  {cardContent}
+                </a>
+              ) : (
+                <article key={article.title} className="group border-2 border-primary bg-background p-6 shadow-cut transition-all hover:-translate-y-2 hover:shadow-none">
+                  {cardContent}
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>
