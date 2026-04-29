@@ -86,7 +86,6 @@ const Index = () => {
               <p className="font-black uppercase text-accent">Current conversations</p>
               <h2 className="mt-2 font-display text-5xl leading-tight md:text-7xl">Stories people actually don&apos;t talk about.</h2>
             </div>
-            <Button variant="paper" size="lg">Explore case studies <ArrowRight className="h-4 w-4" /></Button>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
             {articles.map((article, index) => (
