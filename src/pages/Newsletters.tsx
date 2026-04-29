@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, Instagram, Mail } from "lucide-react";
+import { ArrowLeft, ArrowRight, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -72,11 +72,6 @@ const Newsletters = () => {
           </p>
           <h1 className="max-w-5xl font-display text-6xl font-black italic leading-none md:text-8xl">All the street dispatches in one place.</h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-ink-soft md:text-xl">Stories, visuals, and community voices from everyday life — collected here as new newsletters are published.</p>
-          <Button className="mt-8" variant="editorial" asChild>
-            <a href="https://www.instagram.com/streetspeakdaily?igsh=NTExZGo4ZmpraGM%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
-              <Instagram className="h-4 w-4" /> Visit Instagram
-            </a>
-          </Button>
         </div>
       </section>
 
