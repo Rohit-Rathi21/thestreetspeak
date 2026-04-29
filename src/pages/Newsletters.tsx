@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const newsletters = [
   {
-    title: "Why is basic hygiene still a gamble?",
+    title: "hygiene,a gamble?",
     text: "The gap between food safety policies and street-level realities in India’s street food ecosystem.",
     tag: "Street food",
     url: "https://substack.com/@aditiprakash3/note/c-249618109",
