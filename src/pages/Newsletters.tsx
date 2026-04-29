@@ -16,10 +16,10 @@ const newsletters = [
     url: "https://substack.com/@aditiprakash3/note/c-246740100",
   },
   {
-    title: "The memorization trap",
-    text: "Why rote learning can intensify exam anxiety.",
-    tag: "Newsletter",
-    url: "https://substack.com/@aditiprakash3",
+    title: "Why is waste still everywhere?",
+    text: "Rules exist. Execution fails.",
+    tag: "BROKEN SYSTEM",
+    url: "https://substack.com/home/post/p-195787050",
   },
 ];
 
