@@ -21,6 +21,12 @@ const newsletters = [
     tag: "BROKEN SYSTEM",
     url: "https://substack.com/home/post/p-195787050",
   },
+  {
+    title: "Is AQI hiding the real danger?",
+    text: "Averages lie. Streets suffer.",
+    tag: "HIDDEN EXPOSURE",
+    url: "https://substack.com/@aditiprakash3/note/c-249029464",
+  },
 ];
 
 const Newsletters = () => {
