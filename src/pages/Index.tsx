@@ -1,4 +1,5 @@
 import { ArrowRight, BookOpen, Mic2, Newspaper, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/streets-hero.jpg";
 
@@ -104,13 +105,25 @@ const Index = () => {
 
       <section className="px-5 py-20 md:px-10 md:py-28">
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-3">
-          {channels.map((item) => (
-            <div key={item.label} className="border-2 border-primary bg-card p-7 transition-transform hover:-rotate-1">
+          {channels.map((item) => {
+            const content = (
+              <>
               <item.icon className="mb-8 h-10 w-10 text-accent" />
               <h3 className="font-display text-3xl font-black">{item.label}</h3>
               <p className="mt-4 leading-7 text-muted-foreground">{item.detail}</p>
-            </div>
-          ))}
+              </>
+            );
+
+            return item.label === "Newsletters" ? (
+              <Link key={item.label} to="/newsletters" className="border-2 border-primary bg-card p-7 transition-transform hover:-rotate-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+                {content}
+              </Link>
+            ) : (
+              <div key={item.label} className="border-2 border-primary bg-card p-7 transition-transform hover:-rotate-1">
+                {content}
+              </div>
+            );
+          })}
         </div>
       </section>
 
