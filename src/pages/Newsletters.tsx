@@ -27,6 +27,30 @@ const newsletters = [
     tag: "HIDDEN EXPOSURE",
     url: "https://substack.com/@aditiprakash3/note/c-249029464",
   },
+  {
+    title: "Homes rise. People don’t.",
+    text: "Shelters exist, but streets remain home.",
+    tag: "NO ROOF, NO SYSTEM",
+    url: "https://substack.com/@aditiprakash3/note/c-243347530",
+  },
+  {
+    title: "Who owns the street?",
+    text: "Livelihoods vs city rules.",
+    tag: "STREET ECONOMY",
+    url: "https://substack.com/@aditiprakash3/note/c-241788376",
+  },
+  {
+    title: "One mistake. One life gone.",
+    text: "Roads fail when systems and people do.",
+    tag: "ROAD REALITY",
+    url: "https://substack.com/home/post/p-185356961",
+  },
+  {
+    title: "Why don’t we slow down?",
+    text: "One moment changes everything.",
+    tag: "ROAD REALITY",
+    url: "https://substack.com/home/post/p-184645929",
+  },
 ];
 
 const Newsletters = () => {
