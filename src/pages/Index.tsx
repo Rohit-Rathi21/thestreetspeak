@@ -61,7 +61,7 @@ const Index = () => {
           <div className="space-y-6 text-lg leading-8 text-ink-soft md:text-xl">
             <p>The Streets Speak that's the space where the everyday city comes alive through the people, places and experiences that make up the fabric of urban life especially the stuff that often gets overlooked.</p>
             <p>From the messy beauty of street food to the rhythms of daily life and the secret stories that shape who we are, it's a place where the voices of real people bring the streets to life in all their messy glory.</p>
-            <p>Its got articles and visuals and stories from the community, turning ordinary, everyday moments into something genuinely meaningful - none of the sugar coating or polish here, just the real deal, stuff that feels real and true to life.</p>
+            <p>Its got articles and visuals and stories from the community, turning ordinary, everyday moments into something genuinely meaningful none of the sugar coating or polish here, just the real deal, stuff that feels real and true to life.</p>
           </div>
         </div>
       </section>
