@@ -1,6 +1,8 @@
 import { ArrowLeft, BookOpen } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import majnuPrayerWheels from "@/assets/majnu-prayer-wheels.png";
+import majnuLaneFlags from "@/assets/majnu-lane-flags.png";
 
 const CaseStudy = () => {
   return (
@@ -15,11 +17,20 @@ const CaseStudy = () => {
       </nav>
 
       <section className="px-5 py-16 md:px-10 md:py-24">
-        <div className="mx-auto max-w-7xl">
-          <p className="mb-4 inline-flex items-center gap-2 bg-accent px-3 py-1 text-sm font-black uppercase text-accent-foreground">
-            <BookOpen className="h-4 w-4" /> Case Study
-          </p>
-          <h1 className="max-w-6xl font-display text-6xl font-black italic leading-none md:text-8xl">The most happening street: Majnu ka tilla</h1>
+        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-end">
+          <div>
+            <p className="mb-4 inline-flex items-center gap-2 bg-accent px-3 py-1 text-sm font-black uppercase text-accent-foreground">
+              <BookOpen className="h-4 w-4" /> Case Study
+            </p>
+            <h1 className="max-w-6xl font-display text-6xl font-black italic leading-none md:text-8xl">The most happening street: Majnu ka tilla</h1>
+          </div>
+          <figure className="border-2 border-primary bg-paper p-3 shadow-cut">
+            <img
+              src={majnuLaneFlags}
+              alt="A narrow Majnu Ka Tilla lane lit with hanging bulbs and colorful prayer flags"
+              className="h-[520px] w-full object-cover"
+            />
+          </figure>
         </div>
       </section>
 
@@ -30,6 +41,15 @@ const CaseStudy = () => {
             <p>Deep in North Delhi, Majnu Ka Tilla is hiding in plain sight. One won&apos;t find any flashy signs or grand entrances proclaiming its importance but the moment one step into its narrow side streets the atmosphere changes. Not just in the smells, but in the very rhythm of the place. You&apos;ll catch snippets of conversations in accents you don&apos;t quite recognise, and prayer flags strung above a tangle of wires. It&apos;s almost as if the street itself starts speaking in a language that&apos;s half Delhi, half not quite.</p>
             <p>This isn&apos;t just a place it&apos;s a place with stories layered on top of each other of people who&apos;ve moved here, struggled to make a life for themselves, adapted to a new world and somehow quietly found a way to make it work.</p>
           </div>
+
+          <figure className="border-2 border-primary bg-background p-3 shadow-cut md:-mx-10">
+            <img
+              src={majnuPrayerWheels}
+              alt="Brightly painted Tibetan prayer wheels and decorative columns in Majnu Ka Tilla"
+              className="max-h-[680px] w-full object-cover"
+              loading="lazy"
+            />
+          </figure>
 
           <div className="space-y-5">
             <h2 className="font-display text-4xl font-black text-foreground md:text-5xl">The Street as a Living Story</h2>
