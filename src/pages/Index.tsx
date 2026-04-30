@@ -1,7 +1,7 @@
 import { ArrowRight, BookOpen, Instagram, Mic2, Newspaper, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/streets-hero.jpg";
+import heroImage from "@/assets/home-street-hero.png";
 
 const articles = [
   {
