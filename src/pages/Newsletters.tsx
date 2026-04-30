@@ -71,7 +71,7 @@ const Newsletters = () => {
             <Mail className="h-4 w-4" /> Newsletters
           </p>
           <h1 className="max-w-5xl font-display text-6xl font-black italic leading-none md:text-8xl">All the street dispatches in one place.</h1>
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-ink-soft md:text-xl">Stories, visuals, and community voices from everyday life — collected here as new newsletters are published.</p>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-ink-soft md:text-xl">Stories, visuals, and community voices from everyday life collected here as new newsletters are published.</p>
         </div>
       </section>
 
