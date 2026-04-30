@@ -16,11 +16,6 @@ const articles = [
     tag: "still late",
     link: "https://medium.com/p/1b7cfdee7f74?postPublishedType=initial",
   },
-  {
-    title: "The memorization trap",
-    text: "Why rote learning can intensify exam anxiety.",
-    tag: "Newsletter",
-  },
 ];
 
 const channels = [
