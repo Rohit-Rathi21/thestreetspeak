@@ -20,7 +20,7 @@ const articles = [
 
 const channels = [
   { icon: Newspaper, label: "Newsletters", detail: "Practical reads on education, careers, and student life." },
-  { icon: Mic2, label: "Podcasts", detail: "Honest conversations with educators, students, and mental-health voices." },
+  { icon: Mic2, label: "Podcasts", detail: "" },
   { icon: BookOpen, label: "Case Study", detail: "The most happening street" },
 ];
 
