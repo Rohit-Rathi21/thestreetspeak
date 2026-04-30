@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, ExternalLink, Instagram, Mic2, Newspaper, Sparkles } from "lucide-react";
+import { ArrowRight, BookOpen, ExternalLink, Instagram, Mic2, Newspaper, Sparkles, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/home-street-hero.png";
@@ -160,6 +160,11 @@ const Index = () => {
             <Button className="w-full justify-between" variant="editorial" size="lg" asChild>
               <a href="https://medium.com/@streetspeakdaily" target="_blank" rel="noopener noreferrer">
                 Read on Medium <ExternalLink className="h-4 w-4" />
+              </a>
+            </Button>
+            <Button className="w-full justify-between" variant="editorial" size="lg" asChild>
+              <a href="https://youtu.be/1h1L2SoOzO4?feature=shared" target="_blank" rel="noopener noreferrer">
+                Watch on YouTube <Youtube className="h-4 w-4" />
               </a>
             </Button>
           </div>
