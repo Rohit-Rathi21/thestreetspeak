@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 
 const podcasts = [
   {
-    title: "Episode 01 — Coming soon",
-    description: "Honest conversations with educators, students, and mental-health voices.",
-    tag: "Pilot",
-    videoUrl: "", // Paste a YouTube embed URL or direct .mp4 here
+    title: "Episode 01 — Voices from the street",
+    description: "Our debut episode steps onto the pavement to listen — real people, real moments, and the quiet stories that shape city life.",
+    tag: "Episode 01",
+    videoUrl: "https://www.youtube.com/embed/1h1L2SoOzO4",
   },
 ];
 
