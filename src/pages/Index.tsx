@@ -118,7 +118,7 @@ const Index = () => {
               <>
               <item.icon className="mb-8 h-10 w-10 text-accent" />
               <h3 className="font-display text-3xl font-black">{item.label}</h3>
-              <p className="mt-4 leading-7 text-muted-foreground">{item.detail}</p>
+              {item.detail && <p className="mt-4 leading-7 text-muted-foreground">{item.detail}</p>}
               </>
             );
 
