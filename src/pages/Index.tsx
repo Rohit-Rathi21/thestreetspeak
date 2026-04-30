@@ -126,6 +126,10 @@ const Index = () => {
               <Link key={item.label} to="/newsletters" className="border-2 border-primary bg-card p-7 transition-transform hover:-rotate-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
                 {content}
               </Link>
+            ) : item.label === "Podcasts" ? (
+              <Link key={item.label} to="/podcasts" className="border-2 border-primary bg-card p-7 transition-transform hover:-rotate-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+                {content}
+              </Link>
             ) : item.label === "Case Study" ? (
               <Link key={item.label} to="/case-study" className="border-2 border-primary bg-card p-7 transition-transform hover:-rotate-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
                 {content}
