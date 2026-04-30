@@ -21,7 +21,7 @@ const articles = [
 const channels = [
   { icon: Newspaper, label: "Newsletters", detail: "Practical reads on education, careers, and student life." },
   { icon: Mic2, label: "Podcasts", detail: "Honest conversations with educators, students, and mental-health voices." },
-  { icon: BookOpen, label: "Guides", detail: "Simple explainers for choices that usually feel overwhelming." },
+  { icon: BookOpen, label: "Case Study", detail: "The most happening street" },
 ];
 
 const Index = () => {
@@ -124,6 +124,10 @@ const Index = () => {
 
             return item.label === "Newsletters" ? (
               <Link key={item.label} to="/newsletters" className="border-2 border-primary bg-card p-7 transition-transform hover:-rotate-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
+                {content}
+              </Link>
+            ) : item.label === "Case Study" ? (
+              <Link key={item.label} to="/case-study" className="border-2 border-primary bg-card p-7 transition-transform hover:-rotate-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">
                 {content}
               </Link>
             ) : (
